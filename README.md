@@ -1,53 +1,88 @@
-Diary-Tur
+# Diary-Tur
 
-Diary-Tur is a personal diary application developed using Python, HTML, and CSS. It allows users to securely store and manage their daily thoughts and experiences.
+Diary-Tur is a personal diary web application that allows users to securely store and manage their daily thoughts and experiences.
 
-Features
+## Table of Contents
 
-Secure Storage: Entries are saved in a local SQLite database (diary.db), ensuring privacy and data integrity.
+* [Features](#features)
+* [Technologies](#technologies)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
 
-User-Friendly Interface: The application provides a simple and intuitive web interface for adding and viewing diary entries.
+## Features
 
-Responsive Design: Built with HTML and CSS to ensure accessibility across various devices.
+* Add, view, and manage daily diary entries.
+* Secure local storage using SQLite.
+* Clean and responsive web interface.
 
-Technologies Used
+## Technologies
 
-Python: Core backend logic and server handling.
+* **Python**: Backend server logic.
+* **Flask**: Web framework.
+* **HTML / CSS**: Frontend design.
+* **SQLite**: Local database for storing diary entries.
 
-HTML/CSS: Frontend design and layout.
+## Installation
 
-SQLite: Lightweight database for storing diary entries.
+1. Clone the repository:
 
-Installation
+   ```bash
+   git clone https://github.com/enis1enis2/diary-tur.git
+   cd diary-tur
+   ```
 
-Clone the repository:
+2. Create a virtual environment (optional but recommended):
 
-git clone https://github.com/enis1enis2/diary-tur.git
-cd diary-tur
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/macOS
+   venv\Scripts\activate     # Windows
+   ```
 
+3. Install dependencies:
 
-Install the required Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-pip install -r requirements.txt
+4. Run the application:
 
+   ```bash
+   python main.py
+   ```
 
-Run the application:
+5. Open your browser and go to `http://127.0.0.1:5000`.
 
-python main.py
+## Usage
 
+* Navigate to the web interface.
+* Add new diary entries using the provided form.
+* View existing entries on the main page.
 
-Open your web browser and navigate to http://localhost:5000 to start using the diary application.
+## Contributing
 
-Usage
+Contributions are welcome! Follow these steps:
 
-Add Entry: Use the provided form to write and save your daily thoughts.
+1. Fork the repository.
+2. Create a new branch:
 
-View Entries: Browse through your past entries in a clean and organized manner.
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit:
 
-Contributing
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to your branch:
 
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a Pull Request.
 
-License
+## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
